@@ -1,0 +1,54 @@
+.label {
+  text-align: -webkit-auto;
+}
+
+.row{
+  margin: 20px;
+  padding: 20px;
+}
+
+.chip{
+  font-size: 15px !important;
+  font-weight: bold;
+  background-color: #26A69A;
+  color: white;
+}
+
+.required {
+  background-color: #D4E157;
+  color: black;
+}
+
+.featured {
+  background-color: #FFCA28;
+  color: black;
+}
+
+.backgroundChip{
+  font-size: 15px !important;
+  font-weight: bold;
+  background-color: #26A69A !important;
+  color: white !important;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.preLoader {
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+
+.inputLabel{
+  color: #26A69A;
+}
+
+.selection{
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.formInput{
+  display: inline !important;
+}

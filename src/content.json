@@ -1,0 +1,7 @@
+{
+  "getOppurtunityById": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/opportunities/6124?access_token=",
+  "getSkills": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/lists/skills?access_token=",
+  "getBackground": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/lists/backgrounds?access_token=",
+  "maxBackground": 3,
+  "getPlaceName":"https://maps.googleapis.com/maps/api/place/details/json?fields=name&placeid="
+}
