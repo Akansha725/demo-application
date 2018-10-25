@@ -1,7 +1,8 @@
 {
-  "getOppurtunityById": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/opportunities/6124?access_token=",
-  "getSkills": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/lists/skills?access_token=",
-  "getBackground": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/lists/backgrounds?access_token=",
+  "getOppurtunityById": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/opportunities/6124?access_token=dd0df21c8af5d929dff19f74506c4a8153d7acd34306b9761fd4a57cfa1d483c",
+  "getSkills": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/lists/skills?access_token=dd0df21c8af5d929dff19f74506c4a8153d7acd34306b9761fd4a57cfa1d483c",
+  "getBackground": "http://gisapi-web-staging-1636833739.eu-west-1.elb.amazonaws.com/v2/lists/backgrounds?access_token=dd0df21c8af5d929dff19f74506c4a8153d7acd34306b9761fd4a57cfa1d483c",
   "maxBackground": 3,
-  "getPlaceName":"https://maps.googleapis.com/maps/api/place/details/json?fields=name&placeid="
+  "getPlaceName":"https://maps.googleapis.com/maps/api/place/details/json?fields=name&key=AIzaSyDidwIB4KdPTzhxnd9ILQ80jPUHAdEKwDY&placeid=",
+  "getPlace":"https://maps.googleapis.com/maps/api/place/autocomplete/json?types=geocode&key=AIzaSyDidwIB4KdPTzhxnd9ILQ80jPUHAdEKwDY&input="
 }

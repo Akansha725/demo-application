@@ -44,7 +44,10 @@ var ApplicationForm = (props) => {
                  defaultValue={props.formData.salary}
                  labelClassName="label"
                  onChange={(event, value) => props.updateForm('salary', value)}/>
-          <CityInfo labelName="City Info" defaultValue={props.formData.role_city} />
+          <CityInfo
+                labelName="City Info"
+                defaultValue={props.formData.role_city}
+                setSelectedCity={(value) => {props.updateForm('role_city', value)}}/>
           <Col s={4}>
             <DatePickers
                 label="Application Close Date"

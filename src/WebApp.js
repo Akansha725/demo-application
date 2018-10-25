@@ -28,6 +28,7 @@ export default class WebApp extends Component {
     this.setSelectedSkill = this.setSelectedSkill.bind(this);
     this.setSelectedBackground = this.setSelectedBackground.bind(this);
     this.deleteBackground = this.deleteBackground.bind(this);
+    this.deleteBackground = this.deleteBackground.bind(this);
     this.updateForm = this.updateForm.bind(this);
     this.handleDateChange = this.handleDateChange.bind(this);
     this.submitData = this.submitData.bind(this);
@@ -119,8 +120,6 @@ export default class WebApp extends Component {
       if(!isPresent){
         (this.state.backgroundOption).forEach(bgValue =>{
            if(bgValue.name === value){
-             console.log(selection);
-             console.log(selection.includes(bgValue));
              bgValue["option"] = option;
              bgValue["level"] = null;
              if(selection.length === content.maxBackground ){
@@ -174,9 +173,9 @@ export default class WebApp extends Component {
         "applications_close_date":  state.formData.applications_close_date,
         "skills": state.selectedSkills,
         "backgrounds": state.selectedBackground,
+        "google_place_id": state.role_city,
         "role_info":{
-          "selection_process": state.formData.selection_process,
-          "city": "Chennai"
+          "selection_process": state.formData.selection_process
         },
         "specifics_info":{
           "salary": state.formData.salary

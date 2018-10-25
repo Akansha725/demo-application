@@ -22,7 +22,18 @@ app.get('/getPlace/', (req,res) => {
    let placeId = req.query.palceId;
    request.get(content.getPlaceName+placeId)
           .then( (success) =>{
-              console.log(success);
+              res.setHeader("Content-Type", "application/json");
+              res.send(success.text);
+          });
+});
+
+
+app.get('/updatePlace/', (req,res) => {
+   let placeName = req.query.placeName
+   request.get(content.getPlace+placeName)
+          .then( (success) =>{
+              res.setHeader("Content-Type", "application/json");
+              res.send(success.text);
           });
 });
 
